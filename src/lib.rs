@@ -1,6 +1,4 @@
 pub fn nth(n: u32) -> u32 {
-    // todo!("What is the 0-indexed {n}th prime number?")
-    // if n == 0
     let primes: Vec<u32> = get_primes(n);
     primes[n as usize]
 }
